@@ -18,11 +18,11 @@ $('.portfolio').on('click', '.hide-button', function() {
 
 
 // Tooltip plugin
-$('.tooltip').tooltipster({
-    theme: 'tooltipster-shadow',
-    animation: 'grow',
-    side: 'bottom'
-});
+// $('.tooltip').tooltipster({
+//     theme: 'tooltipster-shadow',
+//     animation: 'grow',
+//     side: 'bottom'
+// });
 
 
 
