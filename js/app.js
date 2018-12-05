@@ -33,7 +33,7 @@ $(window).scroll(function() {
         windowHeight = $(window).height(),
         scroll = $(window).scrollTop(),
         about = $('#about').offset().top,
-        portfolio = $('#portfolio').offset().top
+        portfolio = $('.portfolio').offset().top
 
     if (scroll >= about - navHeight) {
         $('.menu li').removeClass('selected');
@@ -130,7 +130,7 @@ $(".about_button").click(function() {
 
 $(".portfolio_button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top
+        scrollTop: $(".portfolio").offset().top
     }, 1500);
     $('.menu li').removeClass('selected');
     $(this).children().addClass('selected');
