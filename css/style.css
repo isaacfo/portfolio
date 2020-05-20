@@ -1,437 +1,443 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-	font-family: 'Open Sans';
-	margin: 0;
+  font-family: 'Open Sans';
+  margin: 0;
 }
 button:focus {
-	outline:0;
+  outline: 0;
 }
 
 /*******************************
 		NAVIGATION STYLES
 *******************************/
 .nav {
-	width: 100%;
-	height: 60px;
-	background-color: white;
-	z-index: 100;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 100;
 }
 .nav ul {
-	list-style-type: none;
-	font-family: 'Blanc-Medium';
-	margin-right: 10px;
+  list-style-type: none;
+  font-family: 'Blanc-Medium';
+  margin-right: 10px;
 }
 .nav li {
-	padding: 10px 10px 15px;
-	color: black;
-	text-transform: uppercase;
+  padding: 10px 10px 15px;
+  color: black;
+  text-transform: uppercase;
 }
 .nav .logo {
-	color: black;
-	float: left;
-	font-size: 20px;
+  color: black;
+  float: left;
+  font-size: 20px;
 }
 .nav li {
-	float: right;
-	color: gray;
+  float: right;
+  color: gray;
 }
 .nav li.selected {
-	/*color: #69d3b7;*/
-	color: #9bd9f2;
+  /*color: #69d3b7;*/
+  color: #9bd9f2;
 }
 .clearfix {
-	clear: both;
+  clear: both;
 }
 .selected {
-	/*color: #69d3b7;*/
-	color: #9bd9f2;
+  /*color: #69d3b7;*/
+  color: #9bd9f2;
 }
 .header {
-	height: 450px;
-	background-image: url("../img/beach_soccer-min2.jpeg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  height: 450px;
+  background-image: url('../img/beach_soccer-min2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .sticky {
-	position: fixed;
-	height: 75px;
-	z-index: 1000;
-	width: 100%;
-	opacity: 0.9;
+  position: fixed;
+  height: 75px;
+  z-index: 1000;
+  width: 100%;
+  opacity: 0.9;
 }
-
-
 
 /*******************************
 		ABOUT STYLES
 *******************************/
 .about img {
-	border: 15px solid white;
-	border-radius: 100%;
-	margin-top: -140px;
-	width: 250px;
-	float: right;
+  border: 15px solid white;
+  border-radius: 100%;
+  margin-top: -140px;
+  width: 250px;
+  float: right;
 }
 .about a {
-	text-decoration: none;
-	color: #2D7ABC;
+  text-decoration: none;
+  color: #2d7abc;
 }
-.about, .featured, .portfolio, .contact {
-	max-width: 1100px;
-	margin: auto;
-	padding: 50px 50px 25px;
+.about,
+.featured,
+.portfolio,
+.contact {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 50px 25px;
 }
-.about h2, .featured h2, .portfolio h2, .contact h2 {
-	color: black;
-	font-family: 'Blanc-Medium';
+.about h2,
+.featured h2,
+.portfolio h2,
+.contact h2 {
+  color: black;
+  font-family: 'Blanc-Medium';
 }
-.about p, .contact p, .featured p, .portfolio-text p {
-	letter-spacing: 0.03em;
-    line-height: 1.7em
+.about p,
+.contact p,
+.featured p,
+.portfolio-text p {
+  letter-spacing: 0.03em;
+  line-height: 1.7em;
 }
-
-
 
 /*******************************
 		FEATURED VIDEO STYLES
 *******************************/
 .featured-wrapper {
-	width: 100%;
-	background-color: #66A7D5;
-	text-align: center;
+  width: 100%;
+  background-color: #66a7d5;
+  text-align: center;
 }
 .featured {
-	padding: 62px 50px 41px;
-	max-width: 935px;
+  padding: 62px 50px 41px;
+  max-width: 935px;
 }
 .featured h2 {
-	margin: 20px;
+  margin: 20px;
 }
 .featured button {
-	color: white;
-    border: none;
-    background: #A5D8F0;
-    padding: 16px 62px;
-	margin: 16px 6px 25px;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
+  color: white;
+  border: none;
+  background: #a5d8f0;
+  padding: 16px 62px;
+  margin: 16px 6px 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 .featured button:hover {
-	transition: all 0.7s ease;
-	background-color: #a7aaaf;
+  transition: all 0.7s ease;
+  background-color: #a7aaaf;
 }
 .featured img {
-	height: 55px;
-	
+  height: 55px;
 }
 
 .featured .fab {
-	font-size:60px;
-	color: white;
-	
+  font-size: 60px;
+  color: white;
 }
-
 
 .video {
-	display: inline-block;
-	width: 100%;
-	margin-right: -9px;
+  display: inline-block;
+  width: 100%;
+  margin-right: -9px;
 }
 .featured-split {
-	text-align: center;
-	padding-bottom: 70px;
+  text-align: center;
+  padding-bottom: 70px;
 }
 .featured p {
-	padding: 18px;
+  padding: 18px;
 }
-.featured-split-video, .featured-split-code {
-	display: inline-block;
-	width: 545px;
+.featured-split-video,
+.featured-split-code {
+  display: inline-block;
+  width: 545px;
 }
 .clearfix {
-	clear: both;
+  clear: both;
 }
 
 /*******************************
 		CODEPEN STYLES
 *******************************/
 .code {
-	width: 100%;
-	max-width: 954px;
-	margin: auto;
-	display: none;
-	padding: 15px;
+  width: 100%;
+  max-width: 954px;
+  margin: auto;
+  display: none;
+  padding: 15px;
 }
 .code-button {
-	margin-top: 4px;
-	width: 231px;
+  margin-top: 4px;
+  width: 231px;
 }
 .hide-button {
-	border: none;
-	background-color: #7c7e82;
-	color: white;
-	padding: 13px;
-	width: 100%;
-	text-transform: uppercase;
-	margin-bottom: 0;
-	letter-spacing: 0.2em;
+  border: none;
+  background-color: #7c7e82;
+  color: white;
+  padding: 13px;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
 }
 .hide-button:hover {
-	background-color: #a7aaaf;
+  background-color: #a7aaaf;
 }
-
 
 /*******************************
 		PORTFOLIO STYLES
 *******************************/
 .portfolio-wrapper {
-	width: 100%;
-	/*background-color: #eaebed; /* very light gray */
-	color: white;
+  width: 100%;
+  /*background-color: #eaebed; /* very light gray */
+  color: white;
 }
 .portfolio-text {
-	margin: 41px auto 78px;
-	color: black;
-	max-width: 750px;
+  margin: 41px auto 78px;
+  color: black;
+  max-width: 750px;
 }
 .portfolio {
-	max-width: 840px;
-	text-align: center;
+  max-width: 1140px;
+  text-align: center;
 }
 .portfolio img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .compu-pic {
-width: 8%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  width: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* .ruler{
 	width: 50%;
 } */
 .project {
-	border: 4px solid black;
-	display: inline-block;
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-	margin: 5px;
-	text-align: center;
-	position: relative;
+  border: 4px solid black;
+  display: inline-block;
+  width: 390px;
+  height: 350px;
+  overflow: hidden;
+  margin: 5px;
+  text-align: center;
+  position: relative;
 }
+
 .clearfix {
-	clear: both;
+  clear: both;
 }
 .overlay {
-	height: 100%;
-	z-index: 200;
-	transition: all 0.7s ease;
-	padding-top: 40px
+  height: 100%;
+  z-index: 200;
+  transition: all 0.7s ease;
+  padding-top: 40px;
 }
 .no-touchevents .project:hover .overlay,
 .project.hover .overlay {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-	background: white;
-    opacity: 0.9;
-    top: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.9;
+  top: 0;
 }
 .overlay h3 {
-	margin-top: 0;
-	font-family: 'Blanc-Medium';
-	text-transform: uppercase;
+  margin-top: 0;
+  font-family: 'Blanc-Medium';
+  text-transform: uppercase;
 }
 .katie .overlay h3 {
-	width: 80%;
-	margin: auto;
-	padding-top: 0;
+  width: 80%;
+  margin: auto;
+  padding-top: 0;
 }
 .katie .overlay p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .overlay p,
 .overlay h3,
 .project a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .overlay button {
-	color: black;
-	padding: 21px;
-	border: none;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	background: #9bd9f2;
-	color: white;
+  color: black;
+  padding: 21px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #9bd9f2;
+  color: white;
 }
 .overlay button:hover {
-	transition: all 0.7s ease;
-	background: #7c7e82;
+  transition: all 0.7s ease;
+  background: #7c7e82;
 }
 
 /*******************************
 		CONTACT STYLES
 *******************************/
 .contact-wrapper {
-	width: 100%;
-	background-color: #66A7D5;
+  width: 100%;
+  background-color: #66a7d5;
 }
 .contact {
-	height: 400px;
-	text-align: center;
+  height: 400px;
+  text-align: center;
 }
 .contact img {
-	display: inline-block;
-	height: 60px;
-	padding: 5px;
+  display: inline-block;
+  height: 60px;
+  padding: 5px;
 }
 .contact-buttons {
-	padding: 15px;
+  padding: 15px;
 }
-
 
 /*******************************
 		HAMBURGER STYLES
 *******************************/
 .hamburger-icon {
-	display: none;
+  display: none;
 }
 .hamburger-icon img {
-	height: 33px;
+  height: 33px;
 }
 .hamburger-menu {
-	display: none;
-	position: fixed;
-	top: 75px;
-	z-index: 3000;
-	width: 100%;
+  display: none;
+  position: fixed;
+  top: 75px;
+  z-index: 3000;
+  width: 100%;
 }
 .hamburger-menu ul {
-	list-style-type: none;
-	background-color: white;
-	padding: 0;
-	margin: 0;
-	opacity: 0.9;
-	text-align: center;
+  list-style-type: none;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  opacity: 0.9;
+  text-align: center;
 }
 .hamburger-menu li {
-	color: gray;
-	padding: 15px;
+  color: gray;
+  padding: 15px;
 }
 .hamburger-menu a {
-	font-family: 'Blanc-Medium';
-	text-decoration: none;
-	text-transform: uppercase;
+  font-family: 'Blanc-Medium';
+  text-decoration: none;
+  text-transform: uppercase;
 }
-
 
 /*******************************
 		MEDIA QUERY STYLES
 *******************************/
 @media (max-width: 1139px) {
-	.featured-split-video, .featured-split-code {
-		width: 550px;
-	}
-	.featured-split-code {
-		margin-top: -9px;
-	}
+  .featured-split-video,
+  .featured-split-code {
+    width: 550px;
+  }
+  .featured-split-code {
+    margin-top: -9px;
+  }
 }
 
 @media (max-width: 540px) {
-	.header {
-		height: 300px;
-	}
-	.logo {
-		margin-left: -30px;
-	}
-	.about h2 {
-		clear: right;
-	}
-	.about img, .about h2 {
-		float: none;
-		text-align: center;
-	}
-	.about, .contact, .featured {
-		padding: 20px;
-	}
-	.about img {
-		margin-left: 15%;
-	}
-	.featured-split-video, .featured-split-code {
-	    width: 87%;
-	}
-	.iframe-video {
-		width: 100%;
-	}
-	.featured button {
-		padding: 14px 21px;
-		margin: 3px 6px;
-	}
-	.portfolio {
-		padding: 25px;
-	}
-	.menu {
-		display: none;
-	}
-	.hamburger-icon {
-		cursor: pointer;
-		display: block;
-		float: right;
-		margin: 5px 20px 0px 0px;
-	}
-	.contact {
-		height: 500px;
-	}
-	.contact-buttons {
-		padding: 21px 65px;
-	}
+  .header {
+    height: 300px;
+  }
+  .logo {
+    margin-left: -30px;
+  }
+  .about h2 {
+    clear: right;
+  }
+  .about img,
+  .about h2 {
+    float: none;
+    text-align: center;
+  }
+  .about,
+  .contact,
+  .featured {
+    padding: 20px;
+  }
+  .about img {
+    margin-left: 15%;
+  }
+  .featured-split-video,
+  .featured-split-code {
+    width: 87%;
+  }
+  .iframe-video {
+    width: 100%;
+  }
+  .featured button {
+    padding: 14px 21px;
+    margin: 3px 6px;
+  }
+  .portfolio {
+    padding: 25px;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburger-icon {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin: 5px 20px 0px 0px;
+  }
+  .contact {
+    height: 500px;
+  }
+  .contact-buttons {
+    padding: 21px 65px;
+  }
 }
 
 /* Phone 6 Plus*/
 @media (max-width: 414px) {
-	.contact-buttons :nth-child(2) {
-		margin-right: 115px;
-	}
+  .contact-buttons :nth-child(2) {
+    margin-right: 115px;
+  }
 }
 
 /* iPhone 5 and iPhone 6 */
 @media (max-width: 375px) {
-	.contact-buttons {
-		padding: 15px 20px;
-	}
-	.about img {
-		margin-left: 13%;
-	}
-	.portfolio-text {
-		padding: 0 13px;
-	}
-	.portfolio {
-		padding: 5px;
-	}
-	.contact img {
-		height: 60px;
-	}
-	.contact-buttons :nth-child(2) {
-		margin-right: 108px;
-	}
+  .contact-buttons {
+    padding: 15px 20px;
+  }
+  .about img {
+    margin-left: 13%;
+  }
+  .portfolio-text {
+    padding: 0 13px;
+  }
+  .portfolio {
+    padding: 5px;
+  }
+  .contact img {
+    height: 60px;
+  }
+  .contact-buttons :nth-child(2) {
+    margin-right: 108px;
+  }
 }
 @media (max-width: 320px) {
-	.about img {
-		margin-left: 5%;
-	}
-	.project {
-		width: 300px;
-		height: 300px;
-	}
-	.overlay h3 {
-		padding: 0 12px;
-		margin-top: -17px;
-	}
+  .about img {
+    margin-left: 5%;
+  }
+  .project {
+    width: 300px;
+    height: 300px;
+  }
+  .overlay h3 {
+    padding: 0 12px;
+    margin-top: -17px;
+  }
 }
